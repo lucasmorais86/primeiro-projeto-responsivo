@@ -1,0 +1,39 @@
+/* pseudo elementos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: purple;
+}
+
+p::first-letter {
+    color:aqua;
+}
+
+p::first-line{
+    color:black;
+}
+a {
+    color:greenyellow;
+}
+
+a::before {
+    content: "º"
+}  /*after tb usado*/
+
+a::after {
+    content: "😊";
+}

@@ -1,0 +1,22 @@
+
+/* CSS 
+FOLHA DE ESTILO EM CASCATA
+
+SEMPRE APLICADA DE CIMA PRA BAIXO CODIGOS, SEMPRE VAI PREVALECER O QUE VIER DEPOIS */
+
+/* CORES 
+rgb - mistura de vermelho verde e azul, que forma qualquer cor, utilizamos a quantidade de cada a cor
+HEXADECIMAL - 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+sites color.adobe.com, copiar codigo das cores/ coolors/ instalar extensao colorzila google chrome
+*/
+
+    h1 {
+        background: rgb(050, 100, 78);}
+
+
+    p {
+        background: #4191E0;
+    }
+
+
+

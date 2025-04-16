@@ -1,0 +1,21 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    margin: 20px;    
+    /*margin - espaçamento externo
+    padding- crescer de dentro pra fora*/
+}
+
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    margin: 10px 50px 30px 5px
+    
+
+    /*atalhos- margin e padding aplicados nas 4 direçoes- right/left/top/bottom
+    atalho do relógio: ordem q vai definar as margens: 12h 15h 18h 21h
+    atalho direita esquerda mesmo valor: usar somente 3 valores
+    atalho com 2 valores: 1 em cima e embaixo 2 dos dois lados */
+}
