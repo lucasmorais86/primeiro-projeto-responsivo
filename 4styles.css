@@ -6,7 +6,7 @@
         color: red;
         font-size: 64px;
         font-family: "Roboto", sans-serif;
-        font-weight: 50;
+        font-weight: lighter;
         font-style: italic;
         text-shadow: 10px 5px 2px #ff0000;  /*sombra horizontal, sombra vertical, esfumaçado e cor da sombra*/
     }

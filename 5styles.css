@@ -3,6 +3,7 @@
     height: 50px;
     background: #ff1493;
     margin: 20px;    
+    padding: 50px;
     /*margin - espaçamento externo
     padding- crescer de dentro pra fora*/
 }
@@ -15,7 +16,7 @@
     
 
     /*atalhos- margin e padding aplicados nas 4 direçoes- right/left/top/bottom
-    atalho do relógio: ordem q vai definar as margens: 12h 15h 18h 21h
-    atalho direita esquerda mesmo valor: usar somente 3 valores
-    atalho com 2 valores: 1 em cima e embaixo 2 dos dois lados */
+    atalho do relógio: ordem q vai definar as margens: 12h top 15h right 18h bottom 21h left
+    atalho direita esquerda mesmo valor: usar somente 3 valores - primeiro cima/segundo direita esquerda/terceiro baixo
+    atalho com 2 valores: primeiro em cima e embaixo /segundo dos dois lados */
 }

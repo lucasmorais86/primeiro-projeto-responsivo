@@ -14,9 +14,9 @@
 }
 
 .filho {
-    width: 50%;
-    height: 50%;
-    background: rgba(95, 79, 71, 0.788);
+    width: 50vw;
+    height: 50vh;
+    background: red;
     color: #ffffff;
     font-size: 2rem;
 }

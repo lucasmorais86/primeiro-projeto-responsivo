@@ -5,8 +5,8 @@ fixed - fixa o elemento na tela
 sticky - age como um adesivo, fixa o elemento só onde determino
 relative - posiçao relativa a posição inicial dele
 absolute - posição absoluta a algum elemento ou página
-            - se não tiver pai/pai for static - posiciona refente a pagina
-            - se o pai não for stativ - posiciona referente ao pai
+            - se não tiver pai/pai for static - posiciona referente a pagina
+            - se o pai não for static - posiciona referente ao pai
 
 Propriedades:
     -top

@@ -1,0 +1,147 @@
+* {box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.div1 {
+
+    margin-top: 47px;
+    margin-left: 42px;
+}
+.link {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+    
+}
+
+.b1 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #6FBF44;
+}
+
+img {
+    width: 595px;
+    height: 500px;
+    margin-top: 120px;
+    margin-left: 121px; 
+    display: inline-block;
+}
+
+.div2 {
+    margin-left: 85px;
+    display: inline-block;
+    width: 483px;
+}
+
+h1 {
+    
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+    margin-bottom: 47px;
+    margin-right: 57px;
+    width: 582px;
+    height: 164px;
+    
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-right: 146px;
+    margin-bottom: 55px;
+    width: 493px;
+    height: 99px;
+
+}
+
+.b2 {
+
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    Border: none;
+    background: transparent;
+
+}
+
+@media screen and (max-width:700px) {
+
+    
+   * {align-items: center;
+    max-width: 100%;
+    height: auto;
+    }
+    .link {display: none;} 
+    .b1 {float: right;
+    margin-right: 20px;}
+   
+   h1 {
+    
+    margin: 124px auto 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.6px;   
+    height: 60px;
+
+}
+   p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    height: 165px;
+
+   }
+   
+   .b2 {
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+
+   }
+   section {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .div2 {
+        height: 60%;
+        text-align: center;
+        margin-left: 142px;
+        
+    }
+
+    img {
+        height: 40%;
+        margin-top: auto;
+        justify-self: center;
+    }
+}

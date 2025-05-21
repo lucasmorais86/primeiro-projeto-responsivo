@@ -92,30 +92,36 @@ p {
     
 }
 
-@media screen and (max-width: 650px) {
-  
-    .img-logo {
-        width: 354px;
-        height: 317px;
-        margin: 100px auto 20px 20px;
+@media (max-width: 700px) {
+
+    img {
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        object-fit: contain;
+        max-width: 90%;
+        justify-content: center;
+        display: flex;
     }
 
-    header {
-        display: none;
-} 
-    p {
-        display: none;
-    }
-    h1 {
-        font-size: 50px;
+    header {display: none;}
+
+    p {display: none;}
+
+    h1 {font-size: 50px;
         width: 263px;
         height: 52px;
-
+        margin: 24px 75px;
     }
+
     h2 {
         font-size: 30px;
         width: 232px;
         height: 37px;
-        margin: 20px auto 30px auto;
+        margin:20px 79px;
     }
-} 
+
+    .button-section {
+        margin: 17px 75px 133px 76px;
+    }
+}   

@@ -3,7 +3,6 @@
 
 
 
-
 h1 {
     color: red;
     background: black;
@@ -36,12 +35,12 @@ button {
 }
 
 #outro-botao {
-    background: chocolate;
+    background: violet;
 }
 
 .texto, .botão, #botao, #outro-botao { 
     color:red;
     font-weight: bold;
-    background: green;
+    
 }
 

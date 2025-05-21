@@ -23,12 +23,12 @@ landscape: largura maior que a altura
 }
 
 div {
-    height: 200px;
-    width: 200px;
+    height: 700px;
+    width: 700px;
     background: blue;
 }
 
-@media screen and (max-width: 600px)and (orientation: landscape){
+@media screen and (max-width: 800px) and (orientation: landscape){
     div {
         background: red;
         height: 200px;
